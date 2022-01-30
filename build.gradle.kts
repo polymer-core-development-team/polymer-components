@@ -121,6 +121,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.6.10")
 
     val fg = project.extensions.getByType<DependencyManagementExtension>()
+    implementation(fg.deobf("com.github.teampolymer:polymer-core:latest"))
 
 
 }
